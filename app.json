@@ -24,6 +24,9 @@
 				"NSAppTransportSecurity": {
 					"NSAllowsArbitraryLoads": true
 				},
+				"NSAppleMusicUsageDescription": "我们需要访问您的媒体库以播放本地音乐。",
+				"NSPhotoLibraryUsageDescription": "我们需要访问相册以保存或选择封面。",
+				"NSDocumentsFolderUsageDescription": "我们需要访问文档以导入音乐文件。",
 				"CADisableMinimumFrameDurationOnPhone": true
 			},
 			"splash": {
@@ -53,6 +56,12 @@
 						"NSExtensionActivationSupportsWebURLWithMaxCount": 1,
 						"NSExtensionActivationSupportsText": 1
 					}
+				}
+			],
+			[
+				"expo-image-picker",
+				{
+					"photosPermission": "The app accesses your photos to let you share them with your friends."
 				}
 			]
 		],

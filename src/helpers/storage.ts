@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage'
-import { log } from 'expo/build/devtools/logger'
+const log = console.log;
 
 
 const partKeyPrefix = '@___PART___'
